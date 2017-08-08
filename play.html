@@ -221,7 +221,7 @@
       }
       function SetFromLocationHash(){
         //動画・コメントプロキシの設定はここを変更してください。
-        var id=window.location.hash;
+        var id=window.location.hash.slice(1);
         CommentSource="comment/"+id;
         var video1=document.getElementsByTagName("video")[0];
         video1.src="movie/"+id+".mp4";
