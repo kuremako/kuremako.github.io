@@ -5,9 +5,129 @@
   <leaf thread="1" leaf="2" count="2"/>
   <leaf thread="1" leaf="3" count="3"/>
   <thread resultcode="0" thread="1" server_time="1000" last_res="1" ticket="abcd" revision="1"/>
-  <chat thread="1500442884" no="31792" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">いつもの</chat>
-  <chat thread="1500442884" no="31792" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">動画再生ソフトとかでやたらよく見かける。</chat>
-  <chat thread="1500442884" no="31792" vpos="300" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org</chat>
-  <chat thread="1500442884" no="31792" vpos="500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">https://peach.blender.org/</chat>
-  <chat thread="1500442884" no="31792" vpos="700" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">↓著作権的なあれで必要</chat>
+  <chat thread="1500442884" no="0" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">いつもの</chat>
+  <chat thread="1500442884" no="1" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">動画再生ソフトとかでやたらよく見かける。</chat>
+  <chat thread="1500442884" no="2" vpos="300" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org</chat>
+  <chat thread="1500442884" no="3" vpos="500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">https://peach.blender.org/</chat>
+  <chat thread="1500442884" no="4" vpos="700" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">↓著作権的なあれで必要</chat>
+  <chat thread="1500442884" no="6" vpos="900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">画質悪いな</chat>
+  <chat thread="1500442884" no="7" vpos="400" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">Blender Foundation | www.blender.org</chat>
+<!-- 弾幕テスト予告 -->
+  <chat thread="1500442884" no="8" vpos="1500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まもなく弾幕テスト開始</chat>
+<!-- 弾幕テスト -->
+  <chat thread="1500442884" no="9" vpos="2000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">酷い</chat>
+  <chat thread="1500442884" no="10" vpos="2010" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">動物虐待</chat>
+  <chat thread="1500442884" no="11" vpos="2020" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">可哀想</chat>
+  <chat thread="1500442884" no="12" vpos="2030" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">なんか日本のセンスと違う</chat>
+  <chat thread="1500442884" no="13" vpos="2040" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">痛そう</chat>
+  <chat thread="1500442884" no="14" vpos="2050" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">別に死んでないからいいんじゃね</chat>
+  <chat thread="1500442884" no="15" vpos="2060" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">人殺すのはいいんだから動物も良いだろ</chat>
+  <chat thread="1500442884" no="16" vpos="2070" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">なんでこんな盛り上がってんの</chat>
+  <chat thread="1500442884" no="17" vpos="2080" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">ここで議論するなよ</chat>
+  <chat thread="1500442884" no="18" vpos="2090" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">なんか書いとけ</chat>
+  <chat thread="1500442884" no="19" vpos="2100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まぁまぁにぎわってるな</chat>
+  <chat thread="1500442884" no="20" vpos="2110" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">自演乙</chat>
+  <chat thread="1500442884" no="21" vpos="2120" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まだ足りない</chat>
+  <chat thread="1500442884" no="22" vpos="2130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">焼き鳥食べたい</chat>
+  <chat thread="1500442884" no="23" vpos="2140" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">どさっ</chat>
+<!-- コマンドテスト予告 -->
+  <chat thread="1500442884" no="24" vpos="2800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まもなく色テスト開始</chat>
+<!-- コマンドテスト -->
+  <chat thread="1500442884" no="25" vpos="3200" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">上1</chat>
+  <chat thread="1500442884" no="26" vpos="3210" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">上2</chat>
+  <chat thread="1500442884" no="27" vpos="3220" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue pink">上3</chat>
+  <chat thread="1500442884" no="28" vpos="3300" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">下1</chat>
+  <chat thread="1500442884" no="29" vpos="3310" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita red">下2</chat>
+  <chat thread="1500442884" no="30" vpos="3320" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita pink">下3</chat>
+  <chat thread="1500442884" no="31" vpos="3400" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="small">small</chat>
+  <chat thread="1500442884" no="32" vpos="3410" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="big">big</chat>
+  <chat thread="1500442884" no="33" vpos="3420" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="medium">medium</chat>
+  <chat thread="1500442884" no="34" vpos="3430" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">ue</chat>
+  <chat thread="1500442884" no="35" vpos="3440" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">shita</chat>
+  <chat thread="1500442884" no="36" vpos="3450" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="naka">naka</chat>
+  <chat thread="1500442884" no="37" vpos="3600" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="white">white</chat>
+  <chat thread="1500442884" no="38" vpos="3610" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="red">red</chat>
+  <chat thread="1500442884" no="39" vpos="3620" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="pink">pink</chat>
+  <chat thread="1500442884" no="40" vpos="3630" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="orange">orange</chat>
+  <chat thread="1500442884" no="41" vpos="3640" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="yellow">yellow</chat>
+  <chat thread="1500442884" no="42" vpos="3650" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="green">green</chat>
+  <chat thread="1500442884" no="44" vpos="3660" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="cyan">cyan</chat>
+  <chat thread="1500442884" no="45" vpos="3670" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="blue">blue</chat>
+  <chat thread="1500442884" no="46" vpos="3680" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="purple">purple</chat>
+  <chat thread="1500442884" no="47" vpos="3690" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="black">black</chat>
+  <chat thread="1500442884" no="48" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="white2">white2</chat>
+  <chat thread="1500442884" no="49" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="niconicowhite">niconicowhite</chat>
+  <chat thread="1500442884" no="50" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="red2">red2</chat>
+  <chat thread="1500442884" no="51" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="truered">truered</chat>
+  <chat thread="1500442884" no="52" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="pink2">pink2</chat>
+  <chat thread="1500442884" no="53" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="orange2">orange2</chat>
+  <chat thread="1500442884" no="54" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="passionorange">passionorange</chat>
+  <chat thread="1500442884" no="55" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="yellow2">yellow2</chat>
+  <chat thread="1500442884" no="56" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="passionorange">passionorange</chat>
+  <chat thread="1500442884" no="57" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="madyellow">madyellow</chat>
+  <chat thread="1500442884" no="58" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="green2">green2</chat>
+  <chat thread="1500442884" no="59" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="elementalgreen">elementalgreen</chat>
+  <chat thread="1500442884" no="60" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="cyan2">cyan2</chat>
+  <chat thread="1500442884" no="61" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="blue2">blue2</chat>
+  <chat thread="1500442884" no="62" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="marineblue">marineblue</chat>
+  <chat thread="1500442884" no="63" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="purple2">purple2</chat>
+  <chat thread="1500442884" no="64" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="nobleviolet">nobleviolet</chat>
+  <chat thread="1500442884" no="65" vpos="3800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="black2">black2</chat>
+  <chat thread="1500442884" no="66" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#888888">#888888</chat>
+  <chat thread="1500442884" no="67" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#FF0000">#FF0000</chat>
+  <chat thread="1500442884" no="68" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#0000FF">#0000FF</chat>
+  <chat thread="1500442884" no="69" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="full">full</chat>
+  <chat thread="1500442884" no="70" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="184">184</chat>
+  <chat thread="1500442884" no="71" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ender">ender</chat>
+  <chat thread="1500442884" no="72" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="patissier">patissier</chat>
+  <chat thread="1500442884" no="73" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="invisible">invisible</chat>
+  <chat thread="1500442884" no="74" vpos="4100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="defont">defont</chat>
+  <chat thread="1500442884" no="75" vpos="4100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="gothic">gothic</chat>
+  <chat thread="1500442884" no="76" vpos="4100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="mincho">mincho</chat>
+<!-- 休憩 -->
+  <chat thread="1500442884" no="77" vpos="4800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">いくつか非対応のコマンドがあったね</chat>
+  <chat thread="1500442884" no="78" vpos="4850" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">改めてみるといくつか対応してなかった</chat>
+  <chat thread="1500442884" no="79" vpos="4900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">普通にしていると問題ないんだよなぁ</chat>
+<!-- 上テスト予告 -->
+  <chat thread="1500442884" no="80" vpos="5700" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まもなくueテスト</chat>
+<!-- 上テスト -->
+  <chat thread="1500442884" no="81" vpos="6000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分経過</chat>
+  <chat thread="1500442884" no="82" vpos="6010" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+100msec経過</chat>
+  <chat thread="1500442884" no="83" vpos="6020" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+200msec経過</chat>
+  <chat thread="1500442884" no="84" vpos="6030" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+300msec経過</chat>
+  <chat thread="1500442884" no="85" vpos="6040" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+400msec経過</chat>
+  <chat thread="1500442884" no="86" vpos="6050" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+500msec経過</chat>
+  <chat thread="1500442884" no="87" vpos="6060" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+600msec経過</chat>
+  <chat thread="1500442884" no="88" vpos="6070" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+700msec経過</chat>
+  <chat thread="1500442884" no="89" vpos="6080" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+800msec経過</chat>
+  <chat thread="1500442884" no="90" vpos="6090" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+900msec経過</chat>
+  <chat thread="1500442884" no="91" vpos="6100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1000msec経過</chat>
+  <chat thread="1500442884" no="92" vpos="6110" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1100msec経過</chat>
+  <chat thread="1500442884" no="93" vpos="6120" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1200msec経過</chat>
+  <chat thread="1500442884" no="94" vpos="6130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1300msec経過</chat>
+  <chat thread="1500442884" no="95" vpos="6130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1300msec経過</chat>
+  <chat thread="1500442884" no="96" vpos="6130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1300msec経過</chat>
+  <chat thread="1500442884" no="97" vpos="6130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1300msec経過</chat>
+  <chat thread="1500442884" no="98" vpos="6130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue red">一分+1300msec経過</chat>
+<!-- 下テスト予告 -->
+  <chat thread="1500442884" no="99" vpos="6600" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">まもなくueテスト</chat>
+<!-- 下テスト -->
+  <chat thread="1500442884" no="101" vpos="7000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">経過</chat>
+  <chat thread="1500442884" no="102" vpos="7010" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">100msec経過</chat>
+  <chat thread="1500442884" no="103" vpos="7020" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">200msec経過</chat>
+  <chat thread="1500442884" no="104" vpos="7030" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">300msec経過</chat>
+  <chat thread="1500442884" no="105" vpos="7040" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">400msec経過</chat>
+  <chat thread="1500442884" no="106" vpos="7050" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">500msec経過</chat>
+  <chat thread="1500442884" no="107" vpos="7060" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">600msec経過</chat>
+  <chat thread="1500442884" no="108" vpos="7070" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">700msec経過</chat>
+  <chat thread="1500442884" no="109" vpos="7080" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">800msec経過</chat>
+  <chat thread="1500442884" no="110" vpos="7090" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">900msec経過</chat>
+  <chat thread="1500442884" no="111" vpos="7100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1000msec経過</chat>
+  <chat thread="1500442884" no="112" vpos="7110" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1100msec経過</chat>
+  <chat thread="1500442884" no="113" vpos="7120" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1200msec経過</chat>
+  <chat thread="1500442884" no="114" vpos="7130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1300msec経過</chat>
+  <chat thread="1500442884" no="115" vpos="7130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1300msec経過</chat>
+  <chat thread="1500442884" no="116" vpos="7130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1300msec経過</chat>
+  <chat thread="1500442884" no="117" vpos="7130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1300msec経過</chat>
+  <chat thread="1500442884" no="118" vpos="7130" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">1300msec経過</chat>
 </packet>
