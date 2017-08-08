@@ -147,7 +147,7 @@
   <chat thread="1500442884" no="132" vpos="2135" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">ザンギ派</chat>
   <chat thread="1500442884" no="133" vpos="2145" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">から揚げとザンギってどう違うの？</chat>
 <!-- 長いコメント対策 -->
-  <chat thread="1500442884" no="136" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">コメント時間が同じ場合番号順に成立する仕組みのようです。これが一番下なら成功かな？</chat>
   <chat thread="1500442884" no="134" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
   <chat thread="1500442884" no="135" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
+  <chat thread="1500442884" no="136" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">コメント時間が同じ場合番号順に成立する仕組みのようです。これが一番下なら成功かな？</chat>
 </packet>
