@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+  <thread resultcode="0" thread="1" server_time="1000" last_res="1" ticket="abcd" revision="1"/>
+  <leaf thread="1" leaf="1" count="1"/>
+  <leaf thread="1" leaf="2" count="2"/>
+  <leaf thread="1" leaf="3" count="3"/>
+  <thread resultcode="0" thread="1" server_time="1000" last_res="1" ticket="abcd" revision="1"/>
+  <chat thread="1500442884" no="31792" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">いつもの</chat>
+  <chat thread="1500442884" no="31792" vpos="0" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">動画再生ソフトとかでやたらよく見かける。</chat>
+  <chat thread="1500442884" no="31792" vpos="300" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org</chat>
+  <chat thread="1500442884" no="31792" vpos="500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">https://peach.blender.org/</chat>
+  <chat thread="1500442884" no="31792" vpos="700" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="shita">↓著作権的なあれで必要</chat>
+</packet>
