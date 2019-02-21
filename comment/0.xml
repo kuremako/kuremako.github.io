@@ -76,9 +76,7 @@
   <chat thread="1500442884" no="66" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#888888">#888888</chat>
   <chat thread="1500442884" no="67" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#FF0000">#FF0000</chat>
   <chat thread="1500442884" no="68" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="#0000FF">#0000FF</chat>
-  <chat thread="1500442884" no="69" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="full">full</chat>
   <chat thread="1500442884" no="70" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="184">184</chat>
-  <chat thread="1500442884" no="71" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ender">ender</chat>
   <chat thread="1500442884" no="72" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="patissier">patissier</chat>
   <chat thread="1500442884" no="73" vpos="3900" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="invisible">invisible</chat>
   <chat thread="1500442884" no="74" vpos="4100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="defont">defont</chat>
@@ -147,7 +145,51 @@
   <chat thread="1500442884" no="132" vpos="2135" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">ザンギ派</chat>
   <chat thread="1500442884" no="133" vpos="2145" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">から揚げとザンギってどう違うの？</chat>
 <!-- 長いコメント対策 -->
-  <chat thread="1500442884" no="134" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
-  <chat thread="1500442884" no="135" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
-  <chat thread="1500442884" no="136" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">コメント時間が同じ場合番号順に成立する仕組みのようです。これが一番下なら成功かな？</chat>
+  <chat thread="1500442884" no="134" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big full">fullでとても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
+  <chat thread="1500442884" no="135" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
+  <chat thread="1500442884" no="136" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">とても長いコメントを書いてみました。これだけ長ければさすがに画面サイズからはみ出るでしょう。まだ足りないですかそうですか。そろそろいいかな。</chat>
+  <chat thread="1500442884" no="137" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">コメント時間が同じ場合番号順に成立する仕組みのようです。これが一番下なら成功かな？</chat>
+
+<!-- enderとfull 複数行 -->
+  <chat thread="1500442884" no="69" vpos="7800" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="full ue">Top
+複数行コメントはどうでしょう。このサイズだと縮小されるでしょうか。
+
+
+
+
+
+Bottom</chat>
+  <chat thread="1500442884" no="71" vpos="7850" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ender ue">enderの場合は強制的に重なります。
+
+つまりueどうしのコメント回避は行いません。
+またフォントサイズもオリジナル準拠になります。
+
+</chat>
+
+<!-- タブ -->
+  <chat thread="1500442884" no="138" vpos="8100" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">タブ"	"はスペース" "に置換され表示されます。</chat>
+
+<!-- コメントアートテスト -->
+  <chat thread="1500442884" no="140" vpos="8500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #000000"> 
+
+ぎ　ぼ				　 
+
+ん　う
+
+す
+ 
+
+
+  </chat>
+  <chat thread="1500442884" no="141" vpos="8500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #3333FF"> 
+
+
+さ　く				　 
+
+で　さ
+ 
+
+
+  </chat>
+
 </packet>
