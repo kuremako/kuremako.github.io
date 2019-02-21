@@ -151,7 +151,7 @@
   <chat thread="1500442884" no="137" vpos="7500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue">コメント時間が同じ場合番号順に成立する仕組みのようです。これが一番下なら成功かな？</chat>
 
 <!-- enderとfull 複数行 -->
-  <chat thread="1500442884" no="69" vpos="8000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="full ue">Top
+  <chat thread="1500442884" no="69" vpos="9000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="full ue">Top
 複数行コメントはどうでしょう。このサイズだと縮小されるでしょうか。
 
 
@@ -159,7 +159,7 @@
 
 
 Bottom</chat>
-  <chat thread="1500442884" no="71" vpos="8050" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ender ue">enderの場合は強制的に重なります。
+  <chat thread="1500442884" no="71" vpos="9050" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ender ue">enderの場合は強制的に重なります。
 
 つまりueどうしのコメント回避は行いません。
 またフォントサイズもオリジナル準拠になります。
@@ -167,10 +167,10 @@ Bottom</chat>
 </chat>
 
 <!-- タブ -->
-  <chat thread="1500442884" no="138" vpos="8500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">タブ"	"はスペース" "に置換され表示されます。</chat>
+  <chat thread="1500442884" no="138" vpos="9500" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM">タブ"	"はスペース" "に置換され表示されます。</chat>
 
 <!-- コメントアートテスト -->
-  <chat thread="1500442884" no="140" vpos="9000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #000000"> 
+  <chat thread="1500442884" no="140" vpos="10000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #000000"> 
 
 ぎ　ぼ				　 
 
@@ -181,7 +181,7 @@ Bottom</chat>
 
 
   </chat>
-  <chat thread="1500442884" no="141" vpos="9000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #3333FF"> 
+  <chat thread="1500442884" no="141" vpos="10000" leaf="3" date="1000" date_usec="1000" premium="1" anonymity="1" user_id="ABCDEFGHIJKLM" mail="ue big mincho ender full #3333FF"> 
 
 
 さ　く				　 
