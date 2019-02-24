@@ -3,6 +3,7 @@
   [
     {
       "channnel_id":"channel1",
+      "channel_id":"channel1",
       "videos":[
         {
           "id":"0",
