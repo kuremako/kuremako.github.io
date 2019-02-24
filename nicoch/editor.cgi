@@ -1,5 +1,5 @@
-
-<html><head>
+<html>
+<head>
 <title>Editor</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, user-scalable=yes,initial-scale=1.0" />
@@ -49,4 +49,3 @@ https://ch.nicovideo.jp/oss</textarea>
 </div>
 </form></div></body>
 </html>
-
