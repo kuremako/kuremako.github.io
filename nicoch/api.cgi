@@ -10,6 +10,7 @@
           "title":"テスト動画",
           "movie_url":"movie.mp4",
           "thumbnail_url":"ss.png",
+          "player_url":"../play.html#0",
           "comment_url":"comment.xml"
         }
       ]
