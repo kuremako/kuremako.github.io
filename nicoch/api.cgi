@@ -20,11 +20,11 @@
           "thumbnail_url":"ss.png",
           "player_url":"../play.html#0",
           "comment_url":"../comment/0.xml"
-        },
+        }
       ]
     }
    ],
   "recording_channels":[
-    {"channel_url":"http://example.com/","channel_id":"channel1"},
+    {"channel_url":"http://example.com/","channel_id":"channel1"}
   ]
 }
