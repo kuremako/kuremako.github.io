@@ -19,7 +19,7 @@
   </head>
   <body style="background-color:black;margin:0;overflow:hidden;">
     <div id="VideoPlayer" style="margin:0 auto;position:relative;overflow:hidden;" >
-      <video style="position:absolute;z-index:1;" autoplay controls onplay="ResizeOnPlay();" onpause="ResizeOnPause();" onvolumechange="VolumeChange(this);" oncanplay="/*HideFullScreenCenter();*/">
+      <video style="position:absolute;z-index:1;" autoplay controls onplay="ResizeOnPlay();" onended="MovieEnded();" onpause="ResizeOnPause();" onvolumechange="VolumeChange(this);" oncanplay="/*HideFullScreenCenter();*/">
       </video>
       <canvas style="margin:0 auto;top:0;position:absolute;z-index:2;background:transparent;pointer-events: none;" width="855" height="481">
       </canvas>
@@ -31,60 +31,60 @@
       </div>
       <div id="controller" style="top:70%;position:absolute;transform:translateY(-50%) translateX(-50%);left:50%;pointer-events:auto;z-index:4;background-color:black;">
         <a class="button" href="javascript:void(0);" onclick="ToggleFullScreen()" title="画面サイズ">
-          <svg version="1.0" id="_x30_" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20"
+          <svg version="1.0" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:	xlink="http://www.w3.org/1999/xlink" width="20" height="20"
 	    viewBox="0 0 11.339 11.339" overflow="visible" enable-background="new 0 0 11.339 11.339" xml:space="preserve">
 	    <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-	 	7.371,7.937 9.638,5.669 7.371,3.401 "/>
+	 	7.371,7.937 9.638,5.669 7.371,3.401 "></polyline>
 	    <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-	 		3.969,3.401 1.701,5.669 3.969,7.937 "/>
-	    <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="5.669" x2="9.638" y2="5.669"/>
+	 		3.969,3.401 1.701,5.669 3.969,7.937 "></polyline>
+	    <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="5.669" x2="9.638" y2="5.669"></line>
 	  </svg>
         </a>
         <a class="button" id="toggle_fullscreen" href="javascript:void(0);" onclick="ToggleFullScreenStatus()" title="フルスクリーン(F)">
-          <svg  version="1.0" id="_x30_" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20"
+          <svg  version="1.0" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
              viewBox="0 0 11.338 11.339" overflow="visible" enable-background="new 0 0 11.338 11.339" xml:space="preserve">
             <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-              4.536,9.638 1.701,9.638 1.701,6.803 "/>
-            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="9.638" x2="4.908" y2="6.431"/>
+              4.536,9.638 1.701,9.638 1.701,6.803 "></polyline>
+            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="9.638" x2="4.908" y2="6.431"></line>
             <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-              9.638,6.803 9.638,9.638 6.804,9.638 "/>
-            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="9.638" y1="9.638" x2="6.431" y2="6.431"/>
+              9.638,6.803 9.638,9.638 6.804,9.638 "></polyline>
+            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="9.638" y1="9.638" x2="6.431" y2="6.431"></line>
             <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-              4.536,1.701 1.701,1.701 1.701,4.535 "/>
-            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="1.701" x2="4.908" y2="4.908"/>
+              4.536,1.701 1.701,1.701 1.701,4.535 "></polyline>
+            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="1.701" x2="4.908" y2="4.908"></line>
             <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-              9.638,4.535 9.638,1.701 6.804,1.701 "/>
-            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="9.638" y1="1.701" x2="6.431" y2="4.908"/>
+              9.638,4.535 9.638,1.701 6.804,1.701 "></polyline>
+            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="9.638" y1="1.701" x2="6.431" y2="4.908"></line>
        	  </svg>
         </a>
         <a class="button" id="toggle_comment" href="javascript:void(0);" onclick="ToggleComment()" title="コメント(C)">
-          <svg  version="1.0" id="_x30_" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20"
+          <svg  version="1.0" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
             viewBox="0 0 11.338 11.339" overflow="visible" enable-background="new 0 0 11.338 11.339" xml:space="preserve">
             <polyline fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" points="
-            3.402,7.937 1.702,7.937 1.702,1.701 9.638,1.701 9.638,7.937 5.103,7.937 3.402,9.638 3.402,7.937 "/>
+            3.402,7.937 1.702,7.937 1.702,1.701 9.638,1.701 9.638,7.937 5.103,7.937 3.402,9.638 3.402,7.937 "></polyline>
           </svg>
         </a>
         <!--<a class="button" href="javascript:void(0);" onclick="ToggleBackground()">背景</a>-->
         <a class="button" id="toggle_fps" href="javascript:void(0);" onclick="ToggleFps()" title="コメント描画頻度">fps</a>
         <a class="button" id="toggle_pip" href="javascript:void(0);" onclick="TogglePictureInPicture();" title="ピクチャーインピクチャー">
-          <svg  version="1.0" id="_x30_" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20"
+          <svg  version="1.0" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
             viewBox="0 0 11.339 11.339" overflow="visible" enable-background="new 0 0 11.339 11.339" xml:space="preserve">
             <g>
             <path fill="#FFFFFF" d="M9.67,1.97h-8c-0.388,0-0.7,0.313-0.7,0.7v6c0,0.387,0.313,0.699,0.7,0.699h8
 		c0.387,0,0.699-0.313,0.699-0.699v-6C10.369,2.283,10.057,1.97,9.67,1.97L9.67,1.97z M1.67,2.67h8v6l0,0l0,0h-8V2.67L1.67,2.67
-		L1.67,2.67z"/>
+		L1.67,2.67z"></path>
             </g>
-            <rect x="5.67" y="5.419" fill="#FFFFFF" stroke="#FFFFFF" stroke-linejoin="round" width="3" height="2.25"/>
+            <rect x="5.67" y="5.419" fill="#FFFFFF" stroke="#FFFFFF" stroke-linejoin="round" width="3" height="2.25"></rect>
           </svg>
         </a>
         <a class="button" id="nicovideo_link" onclick="return ! OpenInNicovideo();" style="display:none;" href="https://www.nicovideo.jp/watch/" title="ニコニコ動画で見る">
-          <svg version="1.0" id="_x30_" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="20" height="20" viewBox="0 0 11.34 11.339" overflow="visible" enable-background="new 0 0 11.34 11.339" xml:space="preserve">
-            <circle fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" cx="5.67" cy="5.669" r="3.969"/>
-            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="5.669" x2="9.639" y2="5.669"/>
-            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M5.67,1.701c-1.512,2.43-1.512,5.507,0,7.938"/>
-            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M5.67,9.638c1.512-2.43,1.512-5.508,0-7.938"/>
-            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M2.413,3.401c1.908,1.512,4.605,1.512,6.514,0"/>
-            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M8.927,7.937c-1.908-1.512-4.605-1.512-6.514,0"/>
+          <svg version="1.0" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 11.34 11.339" overflow="visible" enable-background="new 0 0 11.34 11.339" xml:space="preserve">
+            <circle fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" cx="5.67" cy="5.669" r="3.969"></circle>
+            <line fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" x1="1.701" y1="5.669" x2="9.639" y2="5.669"></line>
+            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M5.67,1.701c-1.512,2.43-1.512,5.507,0,7.938"></path>
+            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M5.67,9.638c1.512-2.43,1.512-5.508,0-7.938"></path>
+            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M2.413,3.401c1.908,1.512,4.605,1.512,6.514,0"></path>
+            <path fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="500" d="M8.927,7.937c-1.908-1.512-4.605-1.512-6.514,0"></path>
           </svg>
         </a>
         <span id="message" style="color:#888;text-align:center;"></span>
@@ -101,7 +101,18 @@
         let id=window.location.hash.slice(1);
         CommentSource="comment/"+id;
         video1.src="movie/"+id+".mp4";
+
+        if(hash[2] && hash[2]=="repeat"){
+          video1.loop=true;
+        }else{
+          video1.loop=false;
+        }
         return "";
+      }
+      
+      function SetVideoSource(src){
+        let video=document.getElementsByTagName("video")[0];
+        if(src!=video.getAttribute("src")){video.src=src;}
       }
 
       var CanvasMessage="";
@@ -114,29 +125,27 @@
       var Fps=localStorage.getItem("niconico_comment_Fps")?parseFloat(localStorage.getItem("niconico_comment_Fps")):30;
       var CommentSource="";
       var ShowComment=localStorage.getItem("niconico_comment_enabled")?localStorage.getItem("niconico_comment_enabled")=="true":true;
-      var FullScreenSetting=2;
+      var FullScreenSetting=1;
       var Comments="";
       var Background;
 
       window.onload = function() {
-        Init();
+        Start();
+        if(localStorage.getItem("niconico_volume")) document.getElementsByTagName("video")[0].volume=localStorage.getItem("niconico_volume");
         Background=localStorage.getItem("niconico_background")?localStorage.getItem("niconico_background"):"black";
         ApplyBackgroundSetting();
         ApplyFullScreenSetting();
         window.addEventListener('resize',function(event){
           ApplyFullScreenSetting();
-          //if(!document.pictureInPictureElement){document.getElementById("toggle_pip").style.opacity=1.0;}
           });
         SetTouchEvent();
         SetFpsDisplay();
         setTimeout(function(){HideFullScreenCenter();},3000);
         SetControllerVisibility(false);
         PreparePictureInPicture();
-        GetChatXML(function(xml) {
-          Comments=ParseComment(xml);
-          CommentTimer=setInterval('DrawComment()', 1000.0/Fps);
-        });
       };
+      
+      window.addEventListener("hashchange",function(){Start();},false);
       
       document.getElementsByTagName("video")[0].addEventListener("contextmenu", function(e){
         let canvas1=document.getElementsByTagName("canvas")[0];
@@ -204,7 +213,7 @@
           let calcstyle=window.getComputedStyle(menu);
           menu.style.left=Math.max(Math.min(e.offsetX,parseInt(canvasStyle.width)-parseInt(calcstyle.width)-10),10)+"px";
           menu.style.top=Math.max(10,Math.min(e.offsetY,parseInt(canvasStyle.height)-parseInt(calcstyle.height)-10))+"px";
-          e.preventDefault();
+          preventDefault();
         }else{
           if(menu.classList.contains('show')) {
             menu.classList.remove('show');
@@ -222,55 +231,61 @@
         document.getElementById("toggle_fullscreen_center").style.display="none";
       }
 
-      function Init(){
+      function Start(){
+        let comment_org=CommentSource;
         let id=SetVideoLocation();
 
-        let video1=document.getElementsByTagName("video")[0];
         if(id!="" && id!=null){
           UpdateLinkId(id);
           MovieId=id;
         }
 
-        let storage=localStorage;
-        let vol=storage.getItem("niconico_volume");
-        if(vol){ video1.volume= vol;}
+        if(CommentSource!=comment_org){
+          GetChatXML(function(xml) {
+            Comments=ParseComment(xml);
+            NotifyCommentUpdate(Comments);
+            if(CommentTimer){clearInterval(CommentTimer);}
+            CommentTimer=setInterval('DrawComment()', 1000.0/Fps);
+          });
+        }
       }
       function Coord(x,y){this.x=x;this.y=y;}
-      document.onkeydown = function (e){
+      document.onkeydown = function (e){OnKeyDown(e.keyCode,e.key);};
+      function OnKeyDown(keyCode,key,preventDefault){
         let video1=document.getElementsByTagName("video")[0];
-        if(e.keyCode==37 || e.keyCode==227 || e.key=="ArrowLeft" || e.key=="Left"){
+        if(keyCode==37 || keyCode==227 || key=="ArrowLeft" || key=="Left"){
           video1.currentTime-=10;
           ShowCurrentTime();
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.keyCode==39 || e.keyCode==228 || e.key=="ArrowRight" || e.key=="Right"){
+        else if(keyCode==39 || keyCode==228 || key=="ArrowRight" || key=="Right"){
           video1.currentTime+=10;
           ShowCurrentTime();
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.keyCode==38 || e.key=="ArrowUp" || e.key=="Up"){
+        else if(keyCode==38 || key=="ArrowUp" || key=="Up"){
           video1.volume=Math.min(video1.volume+0.05,1.0);
           ShowVolume();
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.keyCode==40 || e.key=="ArrowDown" || e.key=="Down"){
+        else if(keyCode==40 || key=="ArrowDown" || key=="Down"){
           video1.volume=Math.max(video1.volume-0.05,0.0);
           ShowVolume();
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.keyCode==32 || e.keyCode==179 || e.key=="Spacebar" || e.key==" " || e.key=="MediaPlayPause"){
+        else if(keyCode==32 || keyCode==179 || key=="Spacebar" || key==" " || key=="MediaPlayPause"){
           if(video1.paused){video1.play();}else{video1.pause();}
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.key=="Play" && video1.paused){video1.play();e.preventDefault();}
-        else if((e.key=="Pause" || e.key=="MediaPause") && !video1.paused){video1.pause();e.preventDefault();}
-        else if(e.keyCode==67 || e.key=="c" || e.key=="ColorF2Yellow"){
+        else if(key=="Play" && video1.paused){video1.play();preventDefault();}
+        else if((key=="Pause" || key=="MediaPause") && !video1.paused){video1.pause();preventDefault();}
+        else if(keyCode==67 || key=="c" || key=="ColorF2Yellow"){
           if(video1.controls){ToggleComment();}else{ToggleUi();}
-          e.preventDefault();
+          preventDefault();
         }
-        else if(e.keyCode==77 || e.key=="m"){video1.muted=!video1.muted;e.preventDefault();}
-        else if(e.keyCode==70 || e.key=="f"){ToggleFullScreenStatus();e.preventDefault();}
-        else if(e.keyCode==86 || e.key=="v"){ToggleUi();e.preventDefault();}//動画を一時停止して観察する隠しモード
+        else if(keyCode==77 || key=="m"){video1.muted=!video1.muted;preventDefault();}
+        else if(keyCode==70 || key=="f"){ToggleFullScreenStatus();preventDefault();}
+        else if(keyCode==86 || key=="v"){ToggleUi();preventDefault();}//動画を一時停止して観察する隠しモード
       }
       function PreparePictureInPicture(){
         let button=document.getElementById("toggle_pip");
@@ -388,11 +403,11 @@
         }
       }
       function ToggleFullScreenStatus(){
-        if(document.fullscreenElement == null){
+        if(document.fullscreenElement == null && document.webkitFullscreenElement == null && document.mozFullScreenElement == null && document.msFullscreenElement == null){
           requestFullscreen();
           
-          let locker = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
-          if (locker != null && screen.lockOrientationUniversal("landscape")) {
+          screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+          if (screen.lockOrientationUniversal != null && screen.lockOrientationUniversal("landscape")) {
           }else if(screen.orientation.lock != null){
             screen.orientation.lock("landscape").then(function(){/* Locked */},function(/* Lock failed */){});
           }
@@ -426,58 +441,40 @@
         }
       }
       function ToggleFullScreen(){
-        FullScreenSetting=(FullScreenSetting+1)%4;
-        if(FullScreenSetting==1){FullScreenSetting++;}
+        FullScreenSetting=(FullScreenSetting+1)%3;
 
         if(FullScreenSetting==0){SetMessageCanvas("標準サイズ",3000);}
-        else if(FullScreenSetting==1){SetMessageCanvas("最適表示(コントローラー常時表示)",3000);}
-        else if(FullScreenSetting==2){SetMessageCanvas("最適表示",3000);}
-        else if(FullScreenSetting==3){SetMessageCanvas("全体表示",3000);}
+        else if(FullScreenSetting==1){SetMessageCanvas("最適表示",3000);}
+        else if(FullScreenSetting==2){SetMessageCanvas("全体表示",3000);}
 
         ApplyFullScreenSetting();
       }
       function ApplyFullScreenSetting(){
-        if(FullScreenSetting==1){SetSizeFullFixed();}
-        else if(FullScreenSetting==2){SetSizeFullFixedUncontorolable();}
-        else if(FullScreenSetting==3){SetSizeFull();}
+        if(FullScreenSetting==1){SetSizeFullFixedUncontorolable();}
+        else if(FullScreenSetting==2){SetSizeFull();}
         else{SetSizeDefault();}
       }
       function SetSizeFull(){
-        let w=window.innerWidth;
-        let h=window.innerHeight;
-        let hc=document.getElementById("controller").offsetHeight;
-        //SetSize(w,h-hc);
-        if(w/(16/9)+hc>h){SetSize(w,h);}else{SetSize(w,h-hc);}
-      }
-      function SetSizeFullControlable(){
-        let w=window.innerWidth;
-        let h=window.innerHeight;
-        let hc=document.getElementById("controller").offsetHeight;
-        SetSize(w,h-hc);
-      }
-      function SetSizeFullFixed(){
-        let w=window.innerWidth;
-        let h=window.innerWidth/(16/9);
-        let hc=document.getElementById("controller").offsetHeight;
-        if(h+hc>window.innerHeight){
-          h=window.innerHeight-hc;
-          w=h*(16/9);
-        }
+        let w=parent?parent.innerWidth:window.innerWidth;
+        let h=parent?parent.innerHeight:window.innerHeight;
         SetSize(w,h);
       }
       function SetSizeFullFixedUncontorolable(){
-        let w=window.innerWidth;
-        let h=window.innerWidth/(16/9);
+        let w=parent?parent.innerWidth:window.innerWidth;
+        let h=parent?parent.innerHeight:window.innerHeight;
+        let ht=w*9.0/16.0;
+        let hp=window.innerHeight;
         let hc=document.getElementById("controller").offsetHeight;
-        if(h>window.innerHeight){
-          h=window.innerHeight;
-          w=h*(16/9);
+        if(ht>h){
+          ht=h;
+          w=ht*(16/9);
         }
-        SetSize(w,h);
+        SetSize(w,ht);
       }
       function SetSizeDefault(){
-        let w=Math.min(window.innerWidth,855);
-        SetSize(w,w/855.0*481.0);
+        let w=parent?parent.innerWidth:window.innerWidth;
+        let wm=Math.min(w,855);
+        SetSize(wm,wm/855.0*481.0);
       }
       function SetSize(width,height){
         let videoDiv1= document.getElementById("VideoPlayer");
@@ -496,6 +493,8 @@
         video1.style.height=height+"px";
         video1.height=height;
         canvas1.height=height*window.devicePixelRatio;
+        
+        RequestSize(width,height);
       }
       function ToggleBackground(){
         if(Background=="black"){Background="white";}
@@ -553,7 +552,8 @@
       function OpenInNicovideo(){
         if(MovieId){
           let video=document.getElementsByTagName("video")[0];
-          window.location.href = "http://www.nicovideo.jp/watch/"+MovieId+"?from="+Math.floor(video.currentTime);
+          let url = "http://www.nicovideo.jp/watch/"+MovieId+"?from="+Math.floor(video.currentTime);
+          if(parent){parent.location.href=url;}else{window.location.href=url;}
           return true;
         }
         return false;
@@ -686,13 +686,12 @@
                 rangesUe.push(new range(r.y,commentLines.length*height*heightScale));
               }
 
-//              r.y+=height*(heightScale-1);
               comment.lastYReal=r.y/canvas1.width;
               context1.textBaseline="top";
               if(r.y>modnum){overflow=true;r.y=r.y%modnum;}
             }
             else if(comment.mail!=null && ContainsCommand(comment.mail,"shita")){
-              r=new Coordinate(canvas1.width/2.0-comment.width/2.0,(commentLines.length-1.0)*height*heightScale);
+              r=new Coordinate(canvas1.width/2.0-comment.width/2.0,0);
               if(ContainsCommand(comment.mail,"ender")){}else{
               if(comment.lastY>=0){
                 r.y=comment.lastY*canvas1.width;
@@ -726,14 +725,13 @@
 context1.rect(r.x,r.y+height,comment.width,-height*heightScale);
 context1.stroke();
 */
-              let lineCnt=commentLines.length;
               if(!ContainsCommand(comment.mail,"ender")){
-                rangesShita.push(new range(r.y,lineCnt*height*heightScale));
+                rangesShita.push(new range(r.y,commentLines.length*height*heightScale));
                 //rangesShita.push(new range(r.y,height*heightScale));
               }
 
               if(r.y>modnum){overflow=true;r.y=r.y%modnum;}
-              r.y=canvas1.height-r.y-(lineCnt-1)*height*heightScale;
+              r.y=canvas1.height-r.y-(commentLines.length-1)*height*heightScale;
               comment.lastYReal=(r.y-height*heightScale)/canvas1.width;
 
               context1.textBaseline="bottom";
@@ -743,6 +741,7 @@ context1.stroke();
 //              r.y+=height*(heightScale-1)/2.0;
               if(r.y>modnum){overflow=true;r.y=r.y%modnum;}
               r.y+=height/2.0;
+              r.y=Math.max(r.y,height*heightScale/2.0);
               operatedComments.push(comment);
               context1.textBaseline="middle";
               comment.lastYReal=(r.y-height*heightScale/2.0)/canvas1.width;
@@ -913,6 +912,33 @@ testContext.stroke();
           }
         req.open('GET',CommentSource,true);
         req.send(null);
+      }
+
+      function NotifyCommentUpdate(comment){
+        if(window.parent){
+          let message={};
+          message.message="comment_updated";
+          message.comment=comment;
+          window.parent.postMessage(message, self.origin);
+        }
+      }
+
+      function RequestSize(width,height){
+        if(window.parent){
+          let message={};
+          message.message="request_size";
+          message.width=width;
+          message.height=height;
+          window.parent.postMessage(message, self.origin);
+        }
+      }
+      
+      function MovieEnded(){
+        if(window.parent){
+          let message={};
+          message.message="movie_ended";
+          window.parent.postMessage(message, self.origin);
+        }
       }
 //]]>
     </script>
