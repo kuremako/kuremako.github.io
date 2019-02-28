@@ -98,11 +98,16 @@
         let video1=document.getElementsByTagName("video")[0];
         //IMPORTANT:
         //動画・コメントプロキシの設定はここを変更してください。
-        let id=window.location.hash.slice(1);
+        let hash=window.location.hash.split(":");
+        let id=hash[0].slice(1);
         CommentSource="comment/"+id;
         video1.src="movie/"+id+".mp4";
 
-        //repeat no working
+        if(hash[1] && hash[1]=="repeat"){
+          video1.loop=true;
+        }else{
+          video1.loop=false;
+        }
         return "";
       }
       
