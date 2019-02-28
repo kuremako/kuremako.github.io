@@ -101,7 +101,7 @@
         let hash=window.location.hash.split(":");
         let id=hash[0].slice(1);
         CommentSource="comment/"+id;
-        video1.src="movie/"+id+".mp4";
+        SetVideoSource("movie/"+id+".mp4");
 
         if(hash[1] && hash[1]=="repeat"){
           video1.loop=true;
